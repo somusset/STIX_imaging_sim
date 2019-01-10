@@ -35,7 +35,7 @@ FUNCTION stix_sim_calculate_visibilities, pixel_val, phase=phase
   h = 0.46 ; longueur pixel in cm
   m1 = 4d/(!pi)^3*l*h*sin(!pi/4.)
 
-  restore, 'C:\Users\SMusset\Documents\GitHub\STIX\stix_collimator_phases.sav'
+  restore, 'stix_collimator_phases.sav'
   ; this restore the coll_phases variable
 
   vis_real_proxy = dblarr(30)
