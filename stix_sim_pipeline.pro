@@ -75,7 +75,7 @@ PRO stix_sim_pipeline, calculate_moire=calculate_moire, moire_file=moire_file, a
   ; restore the STIX parameters
   ;-----------------------------------------------------
   
-  restore, 'C:\Users\SMusset\Documents\GitHub\STIX\stix_grid_parameters.sav'
+  restore, 'stix_grid_parameters.sav'
   ; this restore the grid_param and grid_names variables
 
   ;-----------------------------------------------------
